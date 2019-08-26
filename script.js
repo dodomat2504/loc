@@ -1,5 +1,3 @@
 let p = document.getElementById("interagieremitmir");
 
-let location = navigator.geolocation.getCurrentPosition();
-
-console.log(location);
+navigator.geolocation.getCurrentPosition((location) => console.log(location));
